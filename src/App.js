@@ -1,23 +1,40 @@
-import React from 'react';
-// import About from './components/about';
-// import Contact from './components/contact';
-// import Footer from './components/footer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import About from './components/about/About';
+import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
 import Header from './components/header/Header'
-// import Nav from './components/nav';
-// import Work from './components/work';
+import Projects from './components/work/Work';
+import NotFound from './components/notFound/NotFound';
 import './App.css';
 
-function App() {
+
+const App = () => {
   return (
-    <>
-      {/* <About />
-      <Contact />
-      <Footer /> */}
-      <Header />
-      {/* <Nav />
-      <Work /> */}
-    </>
-  );
+    <Router>
+      <div className="flex-column justify-center align-center min-100-vh bg-primary">
+        <Header />
+        <Routes>
+          <Route 
+            path="/" 
+            element={<About />}
+          />
+          <Route 
+            path="/projects" 
+            element={<Projects />}
+          />
+          <Route 
+            path="/contact" 
+            element={<Contact />}
+          />
+          <Route 
+            path="*"
+            element={<NotFound />}
+          />
+        </Routes>
+        <Footer />
+      </div>
+  </Router>
+  )
 }
 
 export default App;
