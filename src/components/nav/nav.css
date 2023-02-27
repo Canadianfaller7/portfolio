@@ -1,0 +1,22 @@
+header ul {
+  margin:0;
+  padding:0;
+  list-style:none; 
+}
+
+header ul li {
+  margin:0 0 0 25px;
+  padding:0;
+  display:inline;
+}
+
+header ul li a { 
+  color:#fff;
+  text-decoration:none;
+  font-size:1.3rem;
+}
+
+header ul li a:hover { 
+  color:rgb(9, 248, 248);
+  text-decoration:underline;
+}

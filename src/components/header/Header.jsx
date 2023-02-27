@@ -6,8 +6,8 @@ const Header = () => {
     <header>
       <h1>
         Spencer Merrill
-        <Nav />
       </h1>
+      <Nav />
     </header>
   )
 }

@@ -11,7 +11,7 @@ import './App.css';
 const App = () => {
   return (
     <Router>
-      <div className="flex-column justify-center align-center min-100-vh bg-primary">
+      <div className="flex-row justify-center align-center min-100-vh">
         <Header />
         <Routes>
           <Route 
@@ -33,8 +33,8 @@ const App = () => {
         </Routes>
         <Footer />
       </div>
-  </Router>
-  )
+    </Router>
+  );
 }
 
 export default App;

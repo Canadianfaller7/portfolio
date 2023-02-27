@@ -1,3 +1,12 @@
+:root {
+  --pagemargin:5%;
+  --mint-teal: rgb(9, 248, 248);
+  --dark-grey: rgb(63, 63, 63);
+  --off-grey: rgb(199, 199, 199);
+  --off-white-blue: rgb(232, 252, 255);
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +14,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size:18px;
 }
 
 code {
