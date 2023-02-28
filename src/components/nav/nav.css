@@ -1,22 +1,91 @@
-header ul {
-  margin:0;
-  padding:0;
-  list-style:none; 
+nav {
+  width: 100%;
+  height: 4.3rem;
+  display: block;
+  background-color:#222;
+  place-items: center;
+  position:fixed;
 }
 
-header ul li {
-  margin:0 0 0 25px;
-  padding:0;
-  display:inline;
-}
-
-header ul li a { 
+.navContainer h2 {
   color:#fff;
-  text-decoration:none;
-  font-size:1.3rem;
+  font-size:2.5rem;
+  padding:0 0 0 5px;
+  margin: 1px 45vw 0 0;
 }
 
-header ul li a:hover { 
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.navPic img{
+  margin-top: 5px;
+  width: 3.7rem;
+  float: right;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.navMenu {
+  display: flex;
+  gap: 3.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navMenu a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+nav ul li a:hover { 
   color:rgb(9, 248, 248);
   text-decoration:underline;
+}
+
+@media screen and (max-width: 600px){ 
+  nav {
+    height: 3rem;
+  }
+  
+
+  .navContainer h2 {
+    color:#fff;
+    font-size:1rem;
+    padding:0 0 0 5px;
+    margin: 1px 5vw 0 0;
+  }
+  
+  .navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: .25rem;
+  }
+  
+  .navPic img{
+    margin-top: 5px;
+    width: 2.5rem;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .navMenu {
+    display: flex;
+    gap: 0.5rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .navMenu a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.5rem;
+  }  
 }

@@ -1,10 +1,8 @@
-
+import React from 'react'
 
 const Footer = () => {
   return (
-    <>
-      <h1>Footer Me</h1>
-    </>
+    <div>Footer</div>
   )
 }
 

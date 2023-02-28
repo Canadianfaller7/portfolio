@@ -1,8 +1,8 @@
+import React from 'react'
+
 const Work = () => {
   return (
-    <>
-      <h1>Work Me</h1>
-    </>
+    <div>Work</div>
   )
 }
 

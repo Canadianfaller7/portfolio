@@ -1,17 +1,13 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import About from './components/about/About';
-import Contact from './components/contact/Contact';
-import Footer from './components/footer/Footer';
-import Header from './components/header/Header'
-import Projects from './components/work/Work';
-import NotFound from './components/notFound/NotFound';
+import { About, Contact, Footer, Nav, Header, Projects, NotFound } from './components/index';
 import './App.css';
 
 
 const App = () => {
   return (
     <Router>
-      <div className="flex-row justify-center align-center min-100-vh">
+      <div>
+        <Nav />
         <Header />
         <Routes>
           <Route 

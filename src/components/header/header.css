@@ -1,16 +1,43 @@
 header {
-  background-color:#222;
   display:flex;
+  align-items: center;
   flex-direction:row;
-  justify-content:space-between;
-  padding:0 var(--pagemargin);
-  align-items:center;
+  justify-content: flex-start;
+  padding:0 5px;
 }
 
-header h1 {
-  color:#fff;
-  font-size:5rem;
-  padding:12px 0 0;
-  margin:0;
+.hero{
+  display:flex;
+  flex-direction:column-reverse;
+  background-color:#000;
+  background-image:url(../../assets/images/helloworld.png);
+  background-repeat:no-repeat;
+  background-size:100% auto; 
+  background-position:right top;
+  padding:0 5px;
+  height:12vw;
 }
+
+.hero h2 {
+  margin:0;
+  padding: 0;
+  color:#999;
+  font-size:2.5rem;
+  font-weight:200;
+}
+
+.hero h2:hover {
+  color: rgb(9, 248, 248);
+}
+
+@media screen and (max-width: 600px){ 
+  .hero {
+    padding:0 5px;
+    height:15vw;
+  }
+  .hero h2 {
+    font-size:0.65rem;
+  }
+}
+
 
