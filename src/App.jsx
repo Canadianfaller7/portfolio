@@ -11,15 +11,15 @@ const App = () => {
         <Header />
         <Routes>
           <Route 
-            path="/" 
+            path="/react-portfolio" 
             element={<About />}
           />
           <Route 
-            path="/projects" 
+            path="/react-portfolio/projects" 
             element={<Projects />}
           />
           <Route 
-            path="/contact" 
+            path="/react-portfolio/contact" 
             element={<Contact />}
           />
           <Route 
