@@ -11,7 +11,7 @@ const App = () => {
         <Header />
         <Routes>
           <Route 
-            path="/react-portfolio" 
+            path="/" 
             element={<About />}
           />
           <Route 
