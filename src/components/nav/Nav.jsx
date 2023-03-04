@@ -11,9 +11,7 @@ const Nav = () => {
           <h2>
             Spencer Merrill
           </h2>
-          <a href="/" className="navPic">
-            <img src={ProfPic} alt="Logo" />
-          </a> 
+          {/* <img className="navPic" src={ProfPic} alt="Logo" /> */}
           <ul className="navMenu">
             <li><Link to="/">About</Link></li>
             <li><Link to="/projects">Projects</Link></li>

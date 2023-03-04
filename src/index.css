@@ -64,13 +64,13 @@ h6 {
   font-size: 0.8rem;
 }
 
-img {
+/* img {
   display: block;
   width: 100%;
   object-fit: cover;
-}
+} */
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 768px){
   h1 {
     font-size: 2.4rem;
   }

@@ -1,9 +1,8 @@
 header {
   display:flex;
   align-items: center;
-  flex-direction:row;
   justify-content: flex-start;
-  padding:0 5px;
+  padding:0 var(--pagemargin);
 }
 
 .hero{
@@ -15,7 +14,7 @@ header {
   background-size:100% auto; 
   background-position:right top;
   padding:0 5px;
-  height:12vw;
+  height:25vw;
 }
 
 .hero h2 {
@@ -30,13 +29,13 @@ header {
   color: rgb(9, 248, 248);
 }
 
-@media screen and (max-width: 600px){ 
+@media screen and (max-width: 768px){ 
   .hero {
-    padding:0 5px;
-    height:15vw;
+    padding:0 var(--pagemargin);
+    height:30vw;
   }
   .hero h2 {
-    font-size:0.65rem;
+    font-size:0.85rem;
   }
 }
 

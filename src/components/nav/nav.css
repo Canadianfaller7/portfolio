@@ -1,17 +1,11 @@
 nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  align-self: flex-start;
+  background-color:#222;
   width: 100%;
   height: 4.3rem;
-  display: block;
-  background-color:#222;
-  place-items: center;
-  position:fixed;
-}
-
-.navContainer h2 {
-  color:#fff;
-  font-size:2.5rem;
-  padding:0 0 0 5px;
-  margin: 1px 45vw 0 0;
 }
 
 .navContainer {
@@ -21,18 +15,26 @@ nav {
   margin-right: 2rem;
 }
 
-.navPic img{
+.navContainer h2 {
+  color:#fff;
+  font-size:2rem;
+  padding:15px 0 0 5px;
+  margin: 1px 15vw 0 0;
+}
+
+
+/* .navPic {
   margin-top: 5px;
   width: 3.7rem;
   float: right;
   border-radius: 50%;
   overflow: hidden;
-}
+} */
 
 .navMenu {
   display: flex;
   gap: 3.5rem;
-  margin: 0;
+  margin: 20px 0 0 0;
   padding: 0;
   list-style: none;
 }
@@ -40,7 +42,7 @@ nav {
 .navMenu a {
   color: white;
   text-decoration: none;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 nav ul li a:hover { 
@@ -48,16 +50,15 @@ nav ul li a:hover {
   text-decoration:underline;
 }
 
-@media screen and (max-width: 600px){ 
+@media screen and (max-width: 768px){ 
   nav {
     height: 3rem;
   }
   
-
   .navContainer h2 {
     color:#fff;
     font-size:1rem;
-    padding:0 0 0 5px;
+    padding:15px 0 0 5px;
     margin: 1px 5vw 0 0;
   }
   
@@ -68,17 +69,17 @@ nav ul li a:hover {
     margin-right: .25rem;
   }
   
-  .navPic img{
+  /* .navPic {
     margin-top: 5px;
     width: 2.5rem;
     border-radius: 50%;
     overflow: hidden;
-  }
+  } */
   
   .navMenu {
     display: flex;
-    gap: 0.5rem;
-    margin: 0;
+    gap: 1rem;
+    margin: 10px 0 0 0;
     padding: 0;
     list-style: none;
   }

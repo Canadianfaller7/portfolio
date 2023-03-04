@@ -1,10 +1,10 @@
-import About from './about/About';
-import Contact from './contact/Contact';
+import About from '../pages/about/About';
+import Contact from '../pages/contact/Contact';
 import Footer from './footer/Footer';
 import Nav from './nav/Nav';
 import Header from './header/Header';
-import Projects from './work/Work';
-import NotFound from './notFound/NotFound';
+import Projects from '../pages/work/Work';
+import NotFound from '../pages/notFound/NotFound';
 
 
 export { About, Contact, Footer, Nav, Header, Projects, NotFound };

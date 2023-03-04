@@ -1,0 +1,52 @@
+.about {
+    margin-top: 25vh;
+}
+
+.aboutHeader {
+    text-align: center;
+    margin: 5vh 0 5vh 0
+}
+
+.aboutSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto 30px auto;
+    justify-content: center;
+    align-items: center;
+    border: solid 3px var(--dark-grey);
+    border-radius: 10px;
+    height: min-content;
+    width: 95%;
+}
+
+.heroImg {
+    display: flex;
+    height: 30vh;
+    width: 100%;
+    margin: 20px 35px 20px 30px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .about {
+        margin-top: 10vh;
+    }
+
+    .heroImg {
+        height: 200px;
+        width: 100%;
+        margin: 20px 35px 50px 35px;
+    }
+    .aboutSection {
+        display: flex;
+        margin:  0 auto 0 auto;
+        padding: 0 15px 10px 15px;
+        flex-direction: column; 
+    }
+    .aboutText {
+        text-align: center;
+        font-size: 12px;
+    }
+}
+    
