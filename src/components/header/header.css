@@ -13,30 +13,55 @@ header {
   background-repeat:no-repeat;
   background-size:100% auto; 
   background-position:right top;
-  padding:0 5px;
+  padding:0 var(--pagemargin);
   height:25vw;
 }
 
 .hero h2 {
   margin:0;
   padding: 0;
-  color:#999;
-  font-size:2.5rem;
+  color:var(--off-white-blue);
+  font-size:0.75rem;
   font-weight:200;
 }
 
 .hero h2:hover {
-  color: rgb(9, 248, 248);
+  color: var(--mint-teal);
 }
 
-@media screen and (max-width: 768px){ 
-  .hero {
-    padding:0 var(--pagemargin);
-    height:30vw;
+@media screen and (min-width: 425px){ 
+  .hero{
+    height:25vw;
   }
   .hero h2 {
-    font-size:0.85rem;
+    font-size:0.80rem;
+  }
+  
+}
+
+@media screen and (min-width: 600px){ 
+  .hero{
+    height:20vw;
+  }
+  .hero h2 {
+    font-size:0.95rem;
   }
 }
 
+@media screen and (min-width: 768px){ 
+  .hero{
+    height:15vw;
+  }
+  .hero h2 {
+    font-size:1.2rem;
+  }
+}
 
+@media screen and (min-width: 920px){ 
+  .hero{
+    height:14vw;
+  }
+  .hero h2 {
+    font-size:1.5rem;
+  }
+}

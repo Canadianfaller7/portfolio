@@ -1,0 +1,48 @@
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons a {
+  color: var(--off-white-blue);
+  font-size: 80px;
+  margin: 0 1rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.icons a:hover {
+  color: var(--mint-teal);
+}
+
+
+@media screen and (min-width: 425px) {
+  .icons a {
+    font-size: 80px;
+    margin: 0 2rem;
+  }
+
+} 
+
+@media screen and (min-width: 600px){ 
+  .icons a {
+    font-size: 80px;
+    margin: 0 3rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .icons a {
+    font-size: 80px;
+    margin: 0 4rem;
+  }
+}
+
+@media screen and (min-width: 920px) {
+  .icons a {
+    font-size: 80px;
+    margin: 0 6rem;
+  }
+}
+
+
