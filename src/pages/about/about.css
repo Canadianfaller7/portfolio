@@ -46,6 +46,15 @@
     font-size: 12px;
 }
 
+.contact-me {
+    color: var(--off-white-blue);
+}
+
+.contact-me:hover {
+    color: var(--mint-teal);
+    transition: .3s;
+}
+
 @media screen and (min-width: 425px) {
     .about {
         margin-top: 7vh;

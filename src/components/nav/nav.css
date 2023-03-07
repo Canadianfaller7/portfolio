@@ -33,8 +33,8 @@ nav {
 
 .navMenu {
   display: flex;
-  gap: 3.5rem;
-  margin: 20px 0 0 0;
+  gap: 1rem;
+  margin: 10px 0 0 0;
   padding: 0;
   list-style: none;
 }
@@ -42,7 +42,7 @@ nav {
 .navMenu a {
   color: white;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 0.5rem;
 }
 
 nav ul li a:hover { 
@@ -50,34 +50,81 @@ nav ul li a:hover {
   text-decoration:underline;
 }
 
-@media screen and (max-width: 768px){ 
-  
-  
-  .navContainer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: .25rem;
+@media screen and (min-width: 425px){ 
+
+  .navMenu {
+    gap: 1rem;
   }
   
-  /* .navPic {
-    margin-top: 5px;
-    width: 2.5rem;
-    border-radius: 50%;
-    overflow: hidden;
-  } */
+  .navContainer {
+    margin-right: .70rem;
+  }
   
-  .navMenu {
-    display: flex;
-    gap: 1rem;
-    margin: 10px 0 0 0;
-    padding: 0;
-    list-style: none;
+  .navContainer h2 {
+    font-size:1.25rem;
+    padding:10px 0 0 5px;
   }
   
   .navMenu a {
-    color: white;
-    text-decoration: none;
-    font-size: 0.5rem;
-  }  
+    font-size: .75rem;
+  }
+}
+
+@media screen and (min-width: 600px){ 
+  
+  .navMenu {
+    gap: 1.25rem;
+  }
+  .navContainer {
+    margin-right: .90rem;
+  }
+  
+  .navContainer h2 {
+    font-size:1.40rem;
+    padding:10px 0 0 5px;
+  }
+  
+  .navMenu a {
+    font-size: 1.10rem;
+  }
+}
+
+@media screen and (min-width: 768px){ 
+
+  .navMenu {
+    gap: 2rem;
+  }
+  
+  .navContainer {
+    margin-right: .90rem;
+  }
+  
+  .navContainer h2 {
+    font-size:1.60rem;
+    padding:10px 0 0 5px;
+  }
+  
+  .navMenu a {
+    font-size: 1.30rem;
+  }
+}
+
+@media screen and (min-width: 920px){ 
+
+  .navMenu {
+    gap: 3rem;
+  }
+  
+  .navContainer {
+    margin-right: .90rem;
+  }
+  
+  .navContainer h2 {
+    font-size:2.25rem;
+    padding:0 0 0 5px;
+  }
+  
+  .navMenu a {
+    font-size: 1.30rem;
+  }
 }

@@ -1,4 +1,4 @@
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 // import ProfPic from '../../assets/images/professional-photo.png';
 import './nav.css';
@@ -20,7 +20,6 @@ const Nav = () => {
           </ul>
         </div>
       </nav>
-      <Outlet />
     </>
   )
 };
