@@ -1,0 +1,111 @@
+#work {
+  display:flex;
+  direction:row;
+  flex-wrap:wrap;
+  padding:0 var(--pagemargin);
+}
+
+#work a:hover {
+    text-decoration:none;
+    color:#000;
+}
+
+div[class^="project"] {
+    background-size:cover; 
+    background-position:center top;
+    background-repeat:no-repeat;
+    filter: grayscale(100%);
+    transition:filter 0.3s ease;
+    margin-bottom:20px;
+    display:flex;
+    align-items:flex-end;
+}
+div[class^="project"]:hover {
+    filter: grayscale(0);
+    text-decoration:none;
+}
+
+div.project-2, div.project-3, div.project-4, div.project-5, 
+div.project-6, div.project-7, div.project-8, div.project-9,
+div.project-10 {
+    width:48%;
+    height:200px;
+}
+
+div[class^="project"]:nth-child(even) {
+    margin-left:2%;
+}
+
+div[class^="project"]:nth-child(odd) {
+    margin-left:0;
+    margin-right:2%;
+}
+
+.project-1 { 
+    background-image:url(../../assets/images/beerfinder.png);
+    width:100%;
+    height:400px;
+    margin-left:0 !important;
+}
+
+.project-2 {
+    background-image:url(../../assets/images/weather.png);
+}
+
+.project-3 {
+    background-image:url(../../assets/images/seo.png);
+}
+
+.project-4 {
+    background-image:url(../../assets/images/clock.png);
+}
+
+.project-5 {
+    background-image:url(../../assets/images/quiz.png);
+}
+
+.project-6 {
+    background-image:url(../../assets/images/simonsays.png);
+}
+
+.project-7 {
+    background-image:url(../../assets/images/calculator.png);
+}
+
+.project-8 {
+    background-image:url(../../assets/images/tictactoe.png);
+}
+
+.project-9 {
+    background-image:url(../../assets/images/search.png);
+}
+
+.project-10 {
+    background-image:url(../../assets/images/todo.png);
+}
+
+.project-info {
+    background-color:#000;
+    color:#fff;
+    font-size:1.25rem;
+    padding:8px 20px;
+    width:300px;
+    max-width:100%;
+    overflow-x:hidden;
+    cursor:pointer;
+    flex-direction:column;
+}
+
+.project-info h4, .project-info p {
+    margin:0;
+    padding:0;
+    align-self:flex-start;
+    max-width:100%;
+}
+
+.project-info p { 
+    font-family:'Yanone Kaffeesatz', sans-serif;
+    letter-spacing:0.05em; 
+    text-transform:uppercase;
+    font-weight:200;
+}
