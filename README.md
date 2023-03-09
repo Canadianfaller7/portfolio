@@ -15,6 +15,15 @@ If your README is long, add a table of contents to make it easy for users to fin
 - As I went through this project, I was able to overcome many challeneges, such as figuring out how to use Routes and to understand hooks in React and they help make React a powerful framework to work in.
 - Here is a link to view the full site: [Professional React Portfolio](https://canadianfaller7.github.io/react-portfolio/ "Named link title")
 
+## Screenshots
+
+- Main of text editor on local host
+![PWA text editor](./assets/images/main.png?raw=true "Optional Title")
+
+- Downloaded App
+![PWA installed app](./assets/images/downloaded.png?raw=true "Optional Title")
+
+
 ## Installation
 * Getting Started with Create React App
 
@@ -96,3 +105,13 @@ The webpage is a porfolio with some information that people can view, see my res
 ## Credits
 - N/A
 - N/A
+
+## License 
+Please refer to license page by clicking on the badge to learn more
+- [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT).
+
+## Questions
+
+- Github Profile: https://github.com/canadianfaller7
+- Please feel free to email me at: canadianfaller7@gmail.com with any additional questions. 
+
