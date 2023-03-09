@@ -1,7 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { About, Contact, Footer, Nav, Header, Projects, NotFound } from './components/index';
-import './App.css';
-
 
 const App = () => {
   return (

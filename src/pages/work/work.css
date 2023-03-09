@@ -3,6 +3,12 @@
   direction:row;
   flex-wrap:wrap;
   padding:0 var(--pagemargin);
+  color: var(--off-white-blue);
+  margin-top: 2vh;
+}
+
+#work h3 {
+    margin: .5vh 0 2vh 0;
 }
 
 #work a:hover {
@@ -16,7 +22,7 @@ div[class^="project"] {
     background-repeat:no-repeat;
     filter: grayscale(100%);
     transition:filter 0.3s ease;
-    margin-bottom:20px;
+    margin-bottom:10px;
     display:flex;
     align-items:flex-end;
 }
@@ -28,23 +34,19 @@ div[class^="project"]:hover {
 div.project-2, div.project-3, div.project-4, div.project-5, 
 div.project-6, div.project-7, div.project-8, div.project-9,
 div.project-10 {
-    width:48%;
-    height:200px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    height:250px;
 }
 
-div[class^="project"]:nth-child(even) {
-    margin-left:2%;
-}
 
-div[class^="project"]:nth-child(odd) {
-    margin-left:0;
-    margin-right:2%;
-}
 
 .project-1 { 
     background-image:url(../../assets/images/beerfinder.png);
     width:100%;
-    height:400px;
+    height:300px;
     margin-left:0 !important;
 }
 
@@ -87,10 +89,10 @@ div[class^="project"]:nth-child(odd) {
 .project-info {
     background-color:#000;
     color:#fff;
-    font-size:1.25rem;
+    font-size:.75rem;
     padding:8px 20px;
     width:300px;
-    max-width:100%;
+    max-width:96%;
     overflow-x:hidden;
     cursor:pointer;
     flex-direction:column;
@@ -105,7 +107,25 @@ div[class^="project"]:nth-child(odd) {
 
 .project-info p { 
     font-family:'Yanone Kaffeesatz', sans-serif;
-    letter-spacing:0.05em; 
+    letter-spacing:0.05rem; 
     text-transform:uppercase;
     font-weight:200;
 }
+
+@media screen and (min-width: 425px){ 
+    div.project-2, div.project-3, div.project-4, div.project-5, 
+    div.project-6, div.project-7, div.project-8, div.project-9,
+    div.project-10 {
+       
+        width:45%;
+        height:230px;
+    }
+    .project-info {
+        width:40.5vw;
+        max-width:100%;
+    }
+    .project-1 .project-info { 
+        width:90vw;
+    }
+  }
+  
