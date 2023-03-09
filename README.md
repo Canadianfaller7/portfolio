@@ -1,14 +1,7 @@
-# PWA Text Editor
+# Professional React Portfolio
 - [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## PWA Text Editor
-* https://canadianfaller-pwa-text-editor.herokuapp.com/
-
-## Description
-- This is basic text editor app that can be downloaded to your desktop and will save the text you've entered from localhost and bring it over to the downloaded app!
-- This app is meant to show my skills on being able to set up a progressive web application that can run quickly and be downloaded as a local app.
-
-* [PWA Text Editor](https://github.com/canadianfaller7/pwa-text-editor/ "Named link title")
+# [Professional React Portfolio](https://canadianfaller7.github.io/react-portfolio/ "Named link title")
 
 ## Table of Contents (Optional)
 
@@ -19,14 +12,17 @@ If your README is long, add a table of contents to make it easy for users to fin
 - [Credits](#credits)
 - [License](#license)
 
+## Description
+- This is a portfolio that I have built to give people more of a background about me and my current role and to view some projects I have made. It was created with the React.js framework.
+- As I went through this project, I was able to overcome many challeneges, such as figuring out how to use Routes and to understand hooks in React and they help make React a powerful framework to work in.
+- Here is a link to view the full site: [Professional React Portfolio](https://canadianfaller7.github.io/react-portfolio/ "Named link title")
+
 ## Installation
-- Run 'npm i' to install all packages for both the client and server folders.
-- Run 'npm run start' to run the application on your local host
+N/A
 
 ## Usage
-- Run the application in local host, add your code, save it by clicking anywhere on the screen and then click the install button to have it run as a normal OS application!
-* [PWA Text Editor](https://canadianfaller-pwa-text-editor.herokuapp.com/ "Named link title")
-* [PWA Text Editor](https://github.com/canadianfaller7/pwa-text-editor/ "Named link title")
+The webpage is a porfolio with some information that people can view, see my resume and what projects I have worked on and contact me by filling out the contact form.
+* [Professional React Portfolio](https://canadianfaller7.github.io/react-portfolio/ "Named link title")
 
 
 ## Credits
