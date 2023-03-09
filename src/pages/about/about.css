@@ -36,7 +36,7 @@
 
 .heroImg {
     display: flex;
-    height: 50vh;
+    height: 30vh;
     width: 95%;
     margin: 20px 0 30px 0;
 }
@@ -61,7 +61,7 @@
     }
 
     .heroImg {
-        height: 55vh;
+        height: 50vh;
         width: 85%;
     }
     
@@ -92,7 +92,7 @@
     }
     
     .heroImg {
-        height: 80vh;
+        height: 55vh;
         width: 70%;
     }
     
@@ -118,7 +118,7 @@
     }
     
     .heroImg {
-        height: 110vh;
+        height: 90vh;
         width: 90%;
     }
     
