@@ -36,8 +36,8 @@
 
 .heroImg {
     display: flex;
-    height: 20vh;
-    width: 100%;
+    height: 50vh;
+    width: 95%;
     margin: 20px 0 30px 0;
 }
 
@@ -58,6 +58,11 @@
 @media screen and (min-width: 425px) {
     .about {
         margin-top: 7vh;
+    }
+
+    .heroImg {
+        height: 55vh;
+        width: 85%;
     }
     
     .aboutHeader {
@@ -87,8 +92,8 @@
     }
     
     .heroImg {
-        height: 25vh;
-        width: 95%;
+        height: 80vh;
+        width: 70%;
     }
     
     .aboutText {
@@ -113,8 +118,8 @@
     }
     
     .heroImg {
-        height: 35vh;
-        width: 100%;
+        height: 110vh;
+        width: 90%;
     }
     
     .aboutText {
@@ -139,8 +144,8 @@
     }
     
     .heroImg {
-        height: 45vh;
-        width: 95%;
+        height: 120vh;
+        width: 85%;
     }
     
     .aboutText {
