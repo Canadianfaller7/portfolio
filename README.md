@@ -18,13 +18,13 @@ If your README is long, add a table of contents to make it easy for users to fin
 ## Screenshots
 
 - About me page
-![Professional React Portfolio](./assets/images/about-page.png?raw=true "Optional Title")
+![Professional React Portfolio](../..src/assets/images/about-page.png?raw=true "Optional Title")
 
 - Project page
-![Professional React Portfolio](./assets/images/project-page.png?raw=true "Optional Title")
+![Professional React Portfolio](../..src/assets/images/project-page.png?raw=true "Optional Title")
 
 - Contact page
-![Professional React Portfolio](./assets/images/contact-page.png?raw=true "Optional Title")
+![Professional React Portfolio](../..src/assets/images/contact-page.png?raw=true "Optional Title")
 
 
 ## Installation
