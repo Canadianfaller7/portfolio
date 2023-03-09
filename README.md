@@ -17,11 +17,14 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Screenshots
 
-- Main of text editor on local host
-![PWA text editor](./assets/images/main.png?raw=true "Optional Title")
+- About me page
+![Professional React Portfolio](../assets/images/about-page.png?raw=true "Optional Title")
 
-- Downloaded App
-![PWA installed app](./assets/images/downloaded.png?raw=true "Optional Title")
+- Project page
+![Professional React Portfolio](../assets/images/project-page.png?raw=true "Optional Title")
+
+- Contact page
+![Professional React Portfolio](../assets/images/contact-page.png?raw=true "Optional Title")
 
 
 ## Installation
