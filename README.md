@@ -17,13 +17,19 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Screenshots
 
-- About me page
+* About me page
+
+
 ![Professional React Portfolio](/src/assets/images/about-page.png?raw=true "Optional Title")
 
-- Project page
+* Project page
+
+
 ![Professional React Portfolio](src/assets/images/project-page.png?raw=true "Optional Title")
 
-- Contact page
+* Contact page
+
+
 ![Professional React Portfolio](src/assets/images/contact-page.png?raw=true "Optional Title")
 
 
