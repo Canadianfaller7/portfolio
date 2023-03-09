@@ -1,7 +1,5 @@
-# Professional React Portfolio
-- [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 # [Professional React Portfolio](https://canadianfaller7.github.io/react-portfolio/ "Named link title")
+- [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents (Optional)
 
