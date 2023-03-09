@@ -1,15 +1,21 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.2acaf4c1.css",
-    "main.js": "/react-portfolio/static/js/main.d4170ec4.js",
+    "main.css": "/react-portfolio/static/css/main.f0c9d62e.css",
+    "main.js": "/react-portfolio/static/js/main.691c285d.js",
+    "static/media/weather.png": "/react-portfolio/static/media/weather.6e561124148a4080351d.png",
     "static/media/mypicture.png": "/react-portfolio/static/media/mypicture.5ed7bebab798f0fe983b.png",
+    "static/media/beerfinder.png": "/react-portfolio/static/media/beerfinder.55c78c5488e3e59c34b1.png",
+    "static/media/clock.png": "/react-portfolio/static/media/clock.91cd49c5ae9a04de4de7.png",
+    "static/media/seo.png": "/react-portfolio/static/media/seo.8550664f2498e2fa22a6.png",
+    "static/media/quiz.png": "/react-portfolio/static/media/quiz.6b328d8732d721a41532.png",
     "static/media/helloworld.png": "/react-portfolio/static/media/helloworld.31a5082b460e15f334ce.png",
+    "static/media/simonsays.png": "/react-portfolio/static/media/simonsays.64e7654a0df3a84c234f.png",
     "index.html": "/react-portfolio/index.html",
-    "main.2acaf4c1.css.map": "/react-portfolio/static/css/main.2acaf4c1.css.map",
-    "main.d4170ec4.js.map": "/react-portfolio/static/js/main.d4170ec4.js.map"
+    "main.f0c9d62e.css.map": "/react-portfolio/static/css/main.f0c9d62e.css.map",
+    "main.691c285d.js.map": "/react-portfolio/static/js/main.691c285d.js.map"
   },
   "entrypoints": [
-    "static/css/main.2acaf4c1.css",
-    "static/js/main.d4170ec4.js"
+    "static/css/main.f0c9d62e.css",
+    "static/js/main.691c285d.js"
   ]
 }
