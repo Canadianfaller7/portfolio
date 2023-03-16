@@ -1,0 +1,45 @@
+.my-resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--off-white-blue);
+  margin-top: 3vh;
+}
+
+.my-resume h1 {
+  font-size: 4rem;
+  margin-bottom: 3vh;
+}
+
+.download-btn {
+  display: flex;
+  border-radius: 10px;
+  font-size: 1.25rem;
+  background-color: var(--mint-teal);
+  margin-bottom: 20vh;
+}
+
+.download-btn a {
+  color: var(--dark-grey);
+  text-decoration: none;
+}
+
+.skill-stack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--off-white-blue);
+  flex-direction: column;
+}
+
+.skill-stack h2 {
+  font-size: 4rem;
+}
+
+.my-skills {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 4rem;
+}
