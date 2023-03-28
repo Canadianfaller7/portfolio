@@ -22,7 +22,7 @@ const Nav = ({ currentPage, handlePageChange }) => {
               >About</Link>
             </li>
             <li>
-              <Link to="/react-portfolio/projects" onClick={() => handlePageChange('Projects')} className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}>Projects</Link>
+              <Link to="react-portfolio/projects" onClick={() => handlePageChange('Projects')} className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}>Projects</Link>
             </li>
             <li>
               <Link to="/react-portfolio/contact" onClick={() => handlePageChange('Contact')} className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>Contact</Link>
