@@ -5,6 +5,8 @@ import Nav from './nav/Nav';
 import Header from './header/Header';
 import Projects from '../pages/work/Work';
 import NotFound from '../pages/notFound/NotFound';
+import Create from './create-portfolio/CreatePortfolio'
+import Resume from '../pages/resume/Resume'
 
 
-export { About, Contact, Footer, Nav, Header, Projects, NotFound };
+export { Create, About, Contact, Footer, Nav, Header, Projects, Resume, NotFound };

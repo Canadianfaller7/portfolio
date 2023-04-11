@@ -40,16 +40,25 @@ nav {
   list-style: none;
 }
 
-.navMenu a {
+.navMenu a{
   color: white;
   text-decoration: none;
   font-size: 0.5rem;
 }
 
-nav ul li a:hover { 
-  color:rgb(9, 248, 248);
-  text-decoration:underline;
+.navMenu a:hover { 
+  color: var(--mint-teal);
 }
+
+.nav-link.active {
+  color: white;
+  border-bottom: 3px solid var(--mint-teal);
+}
+
+/* .navMenu a.active {
+  border-bottom: 3px solid var(--mint-teal);
+  transition: border-bottom .2s ease-in-out;
+} */
 
 @media screen and (min-width: 425px){ 
 

@@ -36,9 +36,10 @@
 
 .heroImg {
     display: flex;
-    height: 30vh;
-    width: 95%;
-    margin: 20px 0 30px 0;
+    height: 20vh;
+    width: auto;
+    margin: 20px 0 20px;
+    padding: 10px;
 }
 
 .aboutText {
@@ -61,8 +62,7 @@
     }
 
     .heroImg {
-        height: 50vh;
-        width: 85%;
+        height: 25vh;
     }
     
     .aboutHeader {
@@ -92,8 +92,7 @@
     }
     
     .heroImg {
-        height: 55vh;
-        width: 70%;
+        height: 35vh;
     }
     
     .aboutText {
@@ -118,8 +117,7 @@
     }
     
     .heroImg {
-        height: 90vh;
-        width: 90%;
+        height: 40vh;
     }
     
     .aboutText {
@@ -144,8 +142,7 @@
     }
     
     .heroImg {
-        height: 120vh;
-        width: 85%;
+        height: 50vh;
     }
     
     .aboutText {
