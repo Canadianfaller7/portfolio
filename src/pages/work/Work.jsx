@@ -12,7 +12,7 @@ const Work = () => {
       name: "PokeDex",
       skills: "React | CSS | JSX | API INTEGRATION",
       repo: "https://github.com/Canadianfaller7/react-pokedex",
-      liveSite: "https://canadianfaller7.github.io/weather-dashboard/",
+      liveSite: "https://github.com/Canadianfaller7/react-pokedex",
     },
     {
       id: 2,
