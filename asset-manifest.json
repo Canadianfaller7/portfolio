@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.457e7cac.css",
-    "main.js": "/react-portfolio/static/js/main.bae3ddfe.js",
+    "main.css": "/react-portfolio/static/css/main.9c580177.css",
+    "main.js": "/react-portfolio/static/js/main.46388774.js",
     "static/media/weather.png": "/react-portfolio/static/media/weather.6e561124148a4080351d.png",
     "static/media/mypicture.png": "/react-portfolio/static/media/mypicture.5ed7bebab798f0fe983b.png",
     "static/media/beerfinder.png": "/react-portfolio/static/media/beerfinder.55c78c5488e3e59c34b1.png",
@@ -10,13 +10,14 @@
     "static/media/quiz.png": "/react-portfolio/static/media/quiz.6b328d8732d721a41532.png",
     "static/media/helloworld.png": "/react-portfolio/static/media/helloworld.31a5082b460e15f334ce.png",
     "static/media/spencer-merrill-resume.pdf": "/react-portfolio/static/media/spencer-merrill-resume.734a1e5eb42325452943.pdf",
+    "static/media/Pokedex.png": "/react-portfolio/static/media/Pokedex.6a2a3fa0333f1b4d7f0a.png",
     "static/media/simonsays.png": "/react-portfolio/static/media/simonsays.64e7654a0df3a84c234f.png",
     "index.html": "/react-portfolio/index.html",
-    "main.457e7cac.css.map": "/react-portfolio/static/css/main.457e7cac.css.map",
-    "main.bae3ddfe.js.map": "/react-portfolio/static/js/main.bae3ddfe.js.map"
+    "main.9c580177.css.map": "/react-portfolio/static/css/main.9c580177.css.map",
+    "main.46388774.js.map": "/react-portfolio/static/js/main.46388774.js.map"
   },
   "entrypoints": [
-    "static/css/main.457e7cac.css",
-    "static/js/main.bae3ddfe.js"
+    "static/css/main.9c580177.css",
+    "static/js/main.46388774.js"
   ]
 }
