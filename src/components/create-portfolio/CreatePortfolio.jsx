@@ -10,7 +10,7 @@ const Create = () => {
     if(currentPage === "About") {
       return(
         <Route 
-          path="/react-portfolio" 
+          exact path="/"
           element={<About />}
         />
       ) 
@@ -18,7 +18,7 @@ const Create = () => {
     if(currentPage === "Projects") {
       return(
         <Route 
-          path="/react-portfolio/projects" 
+          path="/projects"
           element={<Projects />}
         />
       ) 
@@ -26,7 +26,7 @@ const Create = () => {
     if(currentPage === "Contact") {
       return(
         <Route 
-          path="/react-portfolio/contact" 
+          path="/contact"
           element={<Contact />}
         />
       ) 
@@ -34,28 +34,24 @@ const Create = () => {
     if(currentPage === "Resume") {
       return(
         <Route 
-          path="/react-portfolio/resume" 
+          path="/resume"
           element={<Resume />}
         />
       ) 
     }
-    if(currentPage === "Null") {
-      return(
-        <Route 
-          path="*" 
-          element={<NotFound />}
-        />
-      ) 
-    }
+    <Route
+      path="*"
+      element={<NotFound />}
+    />
   }
-  
+
   const handlePageChange = (page) => setCurrentPage(page);
   
 
   return (
     <Router>
       <div>
-        <Nav currentPage={currentPage} handlePageChange={handlePageChange}/>
+        <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
         <Header />
         <Routes>
           {pageRoute()}
