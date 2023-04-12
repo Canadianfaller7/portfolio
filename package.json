@@ -1,7 +1,7 @@
 {
   "name": "canadianfaller7-portfolio",
   "version": "0.1.0",
-  "homepage": "https://canadianfaller7.github.io/portfolio",
+  "homepage": "https://canadianfaller7.github.io",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
