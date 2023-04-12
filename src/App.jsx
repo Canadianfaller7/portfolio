@@ -1,11 +1,57 @@
-import { Create } from './components'
+// import { Create } from './components'
+
+// const App = () => {
+//   return (
+//     <div>
+//       <Create/>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import {About, Contact, Footer, Nav, Header, Projects, Resume, NotFound} from "./components/index";
+import {useState} from "react";
 
 const App = () => {
+  const [currentPage, setCurrentPage] = useState();
+
+  // const pageRoute = () => {
+  //   if (currentPage === "About") {
+  //     return <Route exact path='/' element={<About />} />;
+  //   }
+  //   if (currentPage === "Projects") {
+  //     return <Route path='/projects' element={<Projects />} />;
+  //   }
+  //   if (currentPage === "Contact") {
+  //     return <Route path='/contact' element={<Contact />} />;
+  //   }
+  //   if (currentPage === "Resume") {
+  //     return <Route path='
+  //     #resume' element={<Resume />} />;
+  //   }
+  //   <Route path='*' element={<NotFound />} />;
+  // };
+
+  const handlePageChange = (page) => setCurrentPage(page);
+
   return (
-    <div>
-      <Create/>
-    </div>
+    <Router>
+      <div>
+        <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+        <Header />
+        <Routes>
+          <Route path="/" exact element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;
