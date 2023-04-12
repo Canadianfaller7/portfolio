@@ -17,7 +17,7 @@ const Nav = ({ currentPage, handlePageChange }) => {
               <Link to="" onClick={() => handlePageChange("")} className={currentPage === "" ? "active" : ""}></Link>
             </li> */}
             <li>
-              <NavLink exact to="/" onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+              <NavLink to="/" onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
               >About</NavLink>
             </li>
             <li>
