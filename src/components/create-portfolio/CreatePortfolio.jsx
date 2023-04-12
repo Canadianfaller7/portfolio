@@ -25,7 +25,7 @@ const Create = () => {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <Router basename="github.io/">
+    <Router basename="/portfolio">
       <div>
         <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
         <Header />
