@@ -25,7 +25,7 @@ const Create = () => {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <Router>
+    <Router basename="/">
       <div>
         <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
         <Header />
