@@ -31,9 +31,9 @@ const Create = () => {
         <Header />
         <Routes>
           <Route path='/' exact element={<About />} />
-          <Route path='/projects' element={<Projects />} />
-          <Route path='/contact' element={<Contact />} />
-          <Route path='/resume' element={<Resume />} />
+          <Route path='/projects' exact element={<Projects />} />
+          <Route path='/contact' exact element={<Contact />} />
+          <Route path='/resume' exact element={<Resume />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
         <Footer />
