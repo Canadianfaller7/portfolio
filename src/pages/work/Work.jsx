@@ -39,8 +39,8 @@ const Work = () => {
       id: 5,
       name: "Work Day Scheduler",
       skills: "HTML | CSS | JAVASCRIPT",
-      repo: "https://github.com/Canadianfaller7/work-day-scheduler",
-      liveSite: "https://canadianfaller7.github.io/work-day-scheduler/",
+      repo: "https://github.com/Canadianfaller7/my-work-day-scheduler",
+      liveSite: "https://canadianfaller7.github.io/my-work-day-scheduler/",
     },
     {
       id: 6,
